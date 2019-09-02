@@ -1,0 +1,38 @@
+{
+  "name": "long-division",
+  "version": "1.0.0",
+  "description": "Because it's fun to watch, even if it's not fun to do.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbarudin/long-division.git"
+  },
+  "author": "Hannah Barudin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hbarudin/long-division/issues"
+  },
+  "homepage": "https://github.com/hbarudin/long-division#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-hot-loader": "^4.12.12"
+  }
+}

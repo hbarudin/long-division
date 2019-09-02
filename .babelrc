@@ -1,0 +1,4 @@
+// See https://babeljs.io/docs/en/plugins/ for more available options
+{
+  "presets": ["@babel/env", "@babel/preset-react"]
+}
